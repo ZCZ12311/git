@@ -1,0 +1,111 @@
+﻿# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+
+# --- IDE / Editor ---
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+.vs/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+.env/
+.python-version
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# --- Node / JS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm/
+.eslintcache
+*.tsbuildinfo
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.nar
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# --- Go ---
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# --- Rust ---
+target/
+**/*.rs.bk
+
+# --- C / C++ ---
+*.obj
+*.exe
+*.pdb
+*.dll
+*.lib
+*.o
+*.lo
+*.a
+*.la
+*.dylib
+build/
+cmake-build-*/
+
+# --- NuGet ---
+packages/
+*.nupkg
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Secrets ---
+*.key
+*.pem
+*.cer
+.env.local
+.env.*.local
+!example.env
+
+# --- Docker ---
+.docker/
+
+# --- Archives ---
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# --- Temporary ---
+tmp/
+temp/
+scratch/
